@@ -3,8 +3,7 @@ import { Client } from "pg";
 // Async function to insert data into a table
 async function getUser(email: string) {
   const client = new Client({
-    connectionString:
-      "postgresql://neondb_owner:h0QYpa3lAvXT@ep-wild-river-a5si0z6s.us-east-2.aws.neon.tech/neondb?sslmode=require",
+    connectionString: "Url",
   });
   try {
     await client.connect(); // Ensure client connection is established
